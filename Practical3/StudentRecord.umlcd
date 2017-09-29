@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_0MIzIKTqEeeCLvyf2KG70A">
+  <modelElement href="StudentRecord.uml#_0LItkKTqEeeCLvyf2KG70A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_t-izAKTrEeeCLvyf2KG70A" sourceAnchor="0.0,33.0" targetAnchor="158.0,46.0" superClass="_8_bNsKTqEeeCLvyf2KG70A" subClass="_-PegUKTqEeeCLvyf2KG70A">
+    <modelElement href="StudentRecord.uml#_t-XM0KTrEeeCLvyf2KG70A"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8_bNsKTqEeeCLvyf2KG70A" name="Student" subclassedBy="_t-izAKTrEeeCLvyf2KG70A">
+    <modelElement href="StudentRecord.uml#_8_XjUKTqEeeCLvyf2KG70A"/>
+    <visualProperties xmi:id="_8_bNsaTqEeeCLvyf2KG70A" position="219.0,212.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_8_bNsqTqEeeCLvyf2KG70A" label="+"/>
+    <attributes xmi:id="_T2QbgKTrEeeCLvyf2KG70A" name="matric">
+      <modelElement href="StudentRecord.uml#_T2OmUKTrEeeCLvyf2KG70A"/>
+      <visibility xmi:id="_T2QbgaTrEeeCLvyf2KG70A" label="+"/>
+      <cardinality xmi:id="_T2QbgqTrEeeCLvyf2KG70A" label="1" max="1" min="1"/>
+      <type xmi:id="_WN1W4KTrEeeCLvyf2KG70A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XyOh0aTrEeeCLvyf2KG70A" name="name">
+      <modelElement href="StudentRecord.uml#_XyOh0KTrEeeCLvyf2KG70A"/>
+      <visibility xmi:id="_XyOh0qTrEeeCLvyf2KG70A" label="+"/>
+      <cardinality xmi:id="_XyOh06TrEeeCLvyf2KG70A" label="1" max="1" min="1"/>
+      <type xmi:id="_Z8O7QKTrEeeCLvyf2KG70A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_XyTaUaTrEeeCLvyf2KG70A" name="programme">
+      <modelElement href="StudentRecord.uml#_XyTaUKTrEeeCLvyf2KG70A"/>
+      <visibility xmi:id="_XyTaUqTrEeeCLvyf2KG70A" label="+"/>
+      <cardinality xmi:id="_XyTaU6TrEeeCLvyf2KG70A" label="1" max="1" min="1"/>
+      <type xmi:id="_b6ILUKTrEeeCLvyf2KG70A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-PegUKTqEeeCLvyf2KG70A" name="Undergraduate" generalizations="_t-izAKTrEeeCLvyf2KG70A">
+    <modelElement href="StudentRecord.uml#_-Pd5QKTqEeeCLvyf2KG70A"/>
+    <visualProperties xmi:id="_-PegUaTqEeeCLvyf2KG70A" position="415.0,225.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-PegUqTqEeeCLvyf2KG70A" label="+"/>
+    <attributes xmi:id="_dAyRYKTrEeeCLvyf2KG70A" name="year">
+      <modelElement href="StudentRecord.uml#_dAxqUKTrEeeCLvyf2KG70A"/>
+      <visibility xmi:id="_dAyRYaTrEeeCLvyf2KG70A" label="+"/>
+      <cardinality xmi:id="_dAyRYqTrEeeCLvyf2KG70A" label="1" max="1" min="1"/>
+      <type xmi:id="_e6JmwKTrEeeCLvyf2KG70A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_flgQ4KTrEeeCLvyf2KG70A" name="courseDuration">
+      <modelElement href="StudentRecord.uml#_flfp0KTrEeeCLvyf2KG70A"/>
+      <visibility xmi:id="_flgQ4aTrEeeCLvyf2KG70A" label="+"/>
+      <cardinality xmi:id="_flgQ4qTrEeeCLvyf2KG70A" label="1" max="1" min="1"/>
+      <type xmi:id="_Eqq6wqTuEeeCLvyf2KG70A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_iJrBUqTsEeeCLvyf2KG70A" name="toString">
+      <modelElement href="StudentRecord.uml#_iJrBUKTsEeeCLvyf2KG70A"/>
+      <visibility xmi:id="_iJrBU6TsEeeCLvyf2KG70A" label="+"/>
+      <cardinality xmi:id="_iJrBVKTsEeeCLvyf2KG70A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iJrBVaTsEeeCLvyf2KG70A">
+        <modelElement href="StudentRecord.uml#_iJrBUaTsEeeCLvyf2KG70A"/>
+        <type xmi:id="_l3Bc0KTsEeeCLvyf2KG70A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
